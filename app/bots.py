@@ -164,6 +164,7 @@ class HumanPlayer(BasePokerPlayer):
     def receive_round_result_message(self, winners, hand_info, round_state):
         """
         Guarda las cartas de todos los jugadores activos al finalizar la partida.
+        
         """
         if "final_hands" not in self.game_state:
             self.game_state["final_hands"] = {}  # Inicializa solo una vez
