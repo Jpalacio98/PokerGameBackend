@@ -16,15 +16,15 @@ cd PokerGameBackend
 #### **Windows (PowerShell):**
 
 ```powershell
-python -m venv venv
+python -m venv env
 venv\Scripts\activate
 ```
 
 #### **Mac/Linux:**
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv env
+source env/bin/activate
 ```
 
 ### **3. Instalar dependencias**

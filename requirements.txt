@@ -5,3 +5,4 @@ Flask-Migrate
 Flask-Cors
 pypokerengine
 python-dotenv
+flask-socketio

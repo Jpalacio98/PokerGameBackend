@@ -86,8 +86,6 @@ def start_game(user_id, username, level=1):
         "valid_actions": human_player.game_state.get("valid_actions", []),
         "last_action": human_player.game_state.get("last_action", {}),
         "round_results": human_player.game_state.get("round_results", {}),
-        "final_hands": {},  # Se llenará al final de la partida
-        "winners": {},
         "bot_players": list(bot_players.keys())  # Enviar solo nombres de los bots
     }
 
